@@ -25,21 +25,21 @@ Com a imagem construída, você pode executar o compressor diretamente via Docke
 ### 🐧 Linux e 🍏 macOS (Bash/Zsh)
 
 ```bash
-docker run --rm -v "$(pwd)":/dados pdf-compressor meu_relatorio.pdf --qualidade screen
+docker run --rm -v "$(pwd)":/dados pdf-compressor documento.pdf --qualidade ebook
 
 ```
 
 ### 🪟 Windows (PowerShell)
 
 ```powershell
-docker run --rm -v "${PWD}":/dados pdf-compressor meu_relatorio.pdf --qualidade screen
+docker run --rm -v "${PWD}":/dados pdf-compressor documento.pdf --qualidade ebook
 
 ```
 
 ### 🪟 Windows (Prompt de Comando - CMD)
 
 ```cmd
-docker run --rm -v "%cd%":/dados pdf-compressor meu_relatorio.pdf --qualidade screen
+docker run --rm -v "%cd%":/dados pdf-compressor documento.pdf --qualidade ebook
 
 ```
 
